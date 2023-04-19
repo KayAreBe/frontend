@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { ItemDetailsComponent } from './item-details/item-details.component';
 
 const routes: Routes = [
+  {path: "", redirectTo: 'home', pathMatch: 'full'},
   {path:'navbar', component:NavbarComponent},
   {path:'login', component:LoginComponent},
   {path:'about', component:AboutComponent},
