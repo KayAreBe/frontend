@@ -9,6 +9,7 @@ import { FaqsComponent } from './faqs/faqs.component';
 import { HomeComponent } from './home/home.component';
 import { ItemDetailsComponent } from './item-details/item-details.component';
 import { CartComponent } from './cart/cart.component';
+import { AudiComponent } from './brands/audi/audi.component';
 
 const routes: Routes = [
   {path: "", redirectTo: 'home', pathMatch: 'full'},
@@ -19,7 +20,8 @@ const routes: Routes = [
   {path:'faqs', component:FaqsComponent},
   {path: 'home', component:HomeComponent},
   {path: 'itemDetails', component:ItemDetailsComponent},
-  {path: 'cart', component:CartComponent}
+  {path: 'cart', component:CartComponent},
+  {path: 'audi', component:AudiComponent}
 
 ];
 
